@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta lang="en">
+  <meta name="author" content="Louise Ryste">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/dist/css/minified/style.min.css">
+  <title>Re-Cycle</title>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <!-- Header -->
+
+    <header class="page-header">
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand"><img src="images/logo_nav_white2.png" alt="logo bike"></a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only"></span>
+
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="2017-11-04_htmlcss_ca_Louise-Ryste.html">Home<span
+                    class="sr-only">(current)</span></a></li>
+              <li class="dropdown"><a href="about.html">About Us</a></li>
+              <li class="dropdown"><a href="contact.html">Contact Us</a></li>
+              <li class="dropdown"><a href="tours.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                  aria-haspopup="true" aria-expanded="false">Tours<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="tours.html">The Tours</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#booktour">Book Tour</a></li>
+                </ul>
+            </ul>
+
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default" id="searchbtn"><span
+                  class="glyphicon glyphicon-search"></span></button>
+            </form>
+
+          </div>
+        </div>
+      </nav>
+
+      <h1>Re-Cycle</h1>
+      <p>We offer <strong>eco-friendly</strong> guided cycling tours of New York</p>
+
+
+    </header>
+
+    <!-- Carousel -->
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/608006354.jpg" alt="Man on bike">
+              <div class="carousel-caption">
+                <h2>Daily Tours</h2>
+                <p>Sightseeing or workout</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/614981532.jpg" alt="Two people biking">
+              <div class="carousel-caption">
+                <h2>Group Tours</h2>
+                <p>Bring some friends!</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/503590034.jpg" alt="two women walking with bikes">
+              <div class="carousel-caption">
+                <h2>Rentals</h2>
+                <p>Rent an awesome bike!</p>
+              </div>
+            </div>
+          </div>
+
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row -->
+
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <h2>Rent Bicycles</h2>
+        <p>Lorem ipsum dolor sit amet, sit ne maiorum sadipscing philosophia. Et doming epicurei petentium per. Et
+          nusquam facilisi eloquentiam pro, ancillae senserit cu mel. Errem fabellas eleifend id sea, latine delenit
+          voluptatum nec id. Usu quem ornatus maiestatis ut.</p>
+        <br>
+        <button type="button" class="btn btn-default center-block">More Info</button>
+        <hr>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <h2>Guided Tours</h2>
+        <p>Lorem ipsum dolor sit amet, sit ne maiorum sadipscing philosophia. Et doming epicurei petentium per. Et
+          nusquam facilisi eloquentiam pro, ancillae senserit cu mel. Errem fabellas eleifend id sea, latine delenit
+          voluptatum nec id. Usu quem ornatus maiestatis ut.</p>
+        <br>
+        <button type="button" class="btn btn-default center-block">More Info</button>
+        <hr>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <h2>Book Tour</h2>
+        <p>Lorem ipsum dolor sit amet, sit ne maiorum sadipscing philosophia. Et doming epicurei petentium per. Et
+          nusquam facilisi eloquentiam pro, ancillae senserit cu mel. Errem fabellas eleifend id sea, latine delenit
+          voluptatum nec id. Usu quem ornatus maiestatis ut.</p>
+        <br>
+        <button type="button" class="btn btn-default center-block">More Info</button>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-row">
+        <h2>Our guided tours</h2>
+        <p>Re-Cycle offers different types of tours that will suit everyone! Try out one of our regular tours, or book a
+          customized tour for you and your friends!</p>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Map -->
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h2>Map of the city</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24168.418278842957!2d-73.98286992614325!3d40.782864679222726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589a018531e3%3A0xb9df1f7387a94119!2sCentral+Park!5e0!3m2!1sno!2sno!4v1509475793622"
+            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Img with button -->
+
+    <div class="img-wrapper col-lg-10 col-lg-offset-1">
+      <img src="images/171586627.jpg" class="img-responsive hover">
+      <div class="img-overlay">
+        <button class="btn btn-lg btn-default">Rent</button>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Footer -->
+
+  <footer>
+
+    <div class="row">
+      <div class="col-sm-3">
+        <h4>Re-Cycle</h4>
+        <address>
+          <p><span class="glyphicon glyphicon-home"></span> 123 Street, New York, USA</p>
+          <p><span class="glyphicon glyphicon-envelope"></span><a href="mailto:hello@re-cycle.com">
+              hello@re-cycle.com</a></p>
+          <p><span class="glyphicon glyphicon-earphone"></span> 12345678</p>
+        </address>
+
+      </div>
+      <div class="col-sm-3">
+        <h4>Navigation</h4>
+        <ul class="unstyled">
+          <li><a href="2017-11-04_htmlcss_ca_Louise-Ryste.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="tours.html">Tours</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h4>Follow Us</h4>
+        <ul class="unstyled">
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">TripAdvisor</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <p id="copyright">Copyright &copy; Re-Cycle</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
